@@ -10,7 +10,7 @@ export default function Contest() {
     }
 
     const imageUrl = [{
-        'image': 'https://assets.leetcode.com/users/images/0e069826-d39e-4682-9c63-9924f1f35916_1646961369.3015506.png'
+        'image': 'https://assets.leetcode.com/users/images/66e6ca04-89ae-4219-b33a-dcdbac52db24_1648238641.63336.png'
     },
     {
         'image': 'https://assets.leetcode.com/users/images/46bbe046-6030-45ee-b6cb-f334d02db90f_1624653186.6738565.png'
@@ -19,10 +19,10 @@ export default function Contest() {
         <div>
             <Container style={{ 'display': 'flex', 'border': '3px solid white', 'justifyContent': 'start' }}>
                 {imageUrl.map((im) => {
-                    return( <Box key={im.image} sx={{ border: '3px solid white', width: '250px', height: '130px' }}>
+                    return (<Box key={im.image} sx={{ border: '3px solid white', width: '250px', height: '140px' }}>
                         <img src={im.image} alt={im.image} style={imageStyle} />
                     </Box>
-                )
+                    )
                 })}
             </Container>
         </div>

@@ -1,19 +1,20 @@
 import React from 'react'
-import { Container, Grid, GridList } from '@material-ui/core'
+import { Container, Grid } from '@material-ui/core'
 import Contest from './Contest'
+import SideBar from './SideBar'
 
-export default function Main(){
+export default function Main() {
     return (
-        <div style={{marginTop: '80px'}}>
+        <div style={{ marginTop: '80px' }}>
             <Container>
-            <Grid>
-                <Grid item lg={8}>
-                    <Contest />
+                <Grid container>
+                    <Grid item lg={10}>
+                        <Contest />
+                    </Grid>
+                    <Grid item lg={2}>
+                        <SideBar />
+                    </Grid>
                 </Grid>
-                <Grid item lg={4}>
-                    
-                </Grid>
-            </Grid>
             </Container>
         </div>
     )
