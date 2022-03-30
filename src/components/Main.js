@@ -9,11 +9,11 @@ export default function Main() {
         <div style={{ marginTop: '80px' }}>
             <Container>
                 <Grid container>
-                    <Grid item lg={10}>
+                    <Grid item lg={9}>
                         <Contest />
                         <StudyPlan />
                     </Grid>
-                    <Grid item lg={2}>
+                    <Grid item lg={3}>
                         <SideBar />
                     </Grid>
                 </Grid>
