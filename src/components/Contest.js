@@ -17,9 +17,9 @@ export default function Contest() {
     }]
     return (
         <div>
-            <Container style={{ 'display': 'flex', 'border': '3px solid white', 'justifyContent': 'start' }}>
+            <Container style={{ 'display': 'flex', 'justifyContent': 'start' }}>
                 {imageUrl.map((im) => {
-                    return (<Box key={im.image} sx={{ border: '3px solid white', width: '250px', height: '140px' }}>
+                    return (<Box key={im.image} spacing={5} sx={{ margin: '0px 12px', width: '250px', height: '140px' }}>
                         <img src={im.image} alt={im.image} style={imageStyle} />
                     </Box>
                     )
