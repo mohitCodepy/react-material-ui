@@ -34,7 +34,7 @@ export default function StudyPlan() {
 
 
     return (
-        <div>
+        <div style={{ display: 'block' }}>
             <Container style={{ marginTop: '50px', display: 'flex', justifyContent: 'space-between' }}>
                 {planBox.map((ps) => {
                     return (<Box key={ps.title} sx={boxImageStyle}>

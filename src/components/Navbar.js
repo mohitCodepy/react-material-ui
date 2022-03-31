@@ -40,8 +40,8 @@ export default function Navbar() {
   }
 
   return (
-    <Box component={'nav'}>
-      <AppBar mb={0} style={{ 'background': '#292829', 'opacity': 0.97, 'height': '7vh', 'justifyContent': 'center' }}>
+    <Box component={'nav'}  sx={{ position: 'sticky' }} >
+      <AppBar mb={0} position="static" style={{ 'background': '#292829', 'opacity': 0.97, 'height': '7vh', 'justifyContent': 'center' }}>
         <Container maxWidth='lg'>
           <Toolbar style={{ height: '100%', width: '100%' }}>
             <img alt='leetcode logo' src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" width={19} height={23} />
