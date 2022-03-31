@@ -35,7 +35,7 @@ export default function StudyPlan() {
 
     return (
         <div style={{ display: 'block' }}>
-            <Container style={{ marginTop: '50px', display: 'flex', justifyContent: 'space-between' }}>
+            <Container style={{ marginTop: '50px', marginBottom: '50px', display: 'flex', justifyContent: 'space-between' }}>
                 {planBox.map((ps) => {
                     return (<Box key={ps.title} sx={boxImageStyle}>
                         <img src={ps.image} alt="" style={{ borderRadius: '6%', width: '100%', height: '100%' }} />

@@ -13,8 +13,9 @@ export default function Main() {
                     <Grid item lg={9}>
                         <Contest />
                         <StudyPlan />
-                        <Divider variant='fullWidth' sx={{color: 'white'}}/>
-                        <Drawer />
+                      
+                        <Divider variant='fullWidth' sx={{color: 'white', innerHeight:'5px', outerHeight:'3px'}}/>
+                        
                     </Grid>
                     <Grid item lg={3}>
                         <SideBar />
