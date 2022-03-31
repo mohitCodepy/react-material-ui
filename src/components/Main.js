@@ -7,15 +7,16 @@ import Drawer from './Drawer'
 
 export default function Main() {
     return (
-        <div style={{ marginTop: '25px', display: 'block' }}>
+        <div style={{ marginTop: '25px', display: 'block'}}>
             <Container>
                 <Grid container>
                     <Grid item lg={9}>
                         <Contest />
                         <StudyPlan />
-                      
-                        <Divider variant='fullWidth' sx={{color: 'white', innerHeight:'5px', outerHeight:'3px'}}/>
-                        
+                        <Container>
+                            <Divider style={{ marginTop: '80px', width: '100%', backgroundColor: 'rgba(255,255,255,15%)' }} />
+                        </Container>
+                        <Drawer />
                     </Grid>
                     <Grid item lg={3}>
                         <SideBar />
