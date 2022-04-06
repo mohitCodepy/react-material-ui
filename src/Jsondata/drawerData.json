@@ -51,6 +51,138 @@
         {
             "name": "Matrix",
             "num": 159
+        },
+        {
+            "name": "Binary Tree",
+            "num": 159
+        },
+        {
+            "name": "Two Pointers",
+            "num": 159
+        },
+        {
+            "name": "Bit Manipulation",
+            "num": 159
+        },
+        {
+            "name": "Stack",
+            "num": 159
+        },
+        {
+            "name": "Design",
+            "num": 159
+        },
+        {
+            "name": "Heap (Priority Queue)",
+            "num": 159
+        },
+        {
+            "name": "Graph",
+            "num": 159
+        },
+        {
+            "name": "Backtracking",
+            "num": 159
+        },
+        {
+            "name": "Simulation",
+            "num": 159
+        },
+        {
+            "name": "Prefix Sum",
+            "num": 159
+        },
+        {
+            "name": "Counting",
+            "num": 159
+        },
+        {
+            "name": "Sliding Window",
+            "num": 159
+        },
+        {
+            "name": "Linked List",
+            "num": 159
+        },
+        {
+            "name": "Union Find",
+            "num": 159
+        },
+        {
+            "name": "Recursion",
+            "num": 159
+        },
+        {
+            "name": "Ordered Set",
+            "num": 159
+        },
+        {
+            "name": "Monotonic Stack",
+            "num": 159
+        },
+        {
+            "name": "Binary Search Tree",
+            "num": 159
+        },
+        {
+            "name": "Trie",
+            "num": 159
+        },
+        {
+            "name": "Divide and Conquer",
+            "num": 159
+        },
+        {
+            "name": "Bitmask",
+            "num": 159
+        },
+        {
+            "name": "Topological Sort",
+            "num": 159
+        },
+        {
+            "name": "Hash Function",
+            "num": 159
+        },
+        {
+            "name": "Interactive",
+            "num": 159
+        },
+        {
+            "name": "Binary Indexed Tree",
+            "num": 2359
+        },
+        {
+            "name": "Data Stream",
+            "num": 259
+        },
+        {
+            "name": "String Matching",
+            "num": 149
+        },
+        {
+            "name": "Queue",
+            "num": 159
+        },
+        {
+            "name": "Enumeration",
+            "num": 1590
+        },
+        {
+            "name": "Geometry",
+            "num": 1
+        },
+        {
+            "name": "Memoization",
+            "num": 16
+        },
+        {
+            "name": "Game Theory",
+            "num": 15
+        },
+        {
+            "name": "Segment Tree",
+            "num": 15
         }
     ]
 }
