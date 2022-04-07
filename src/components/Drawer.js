@@ -16,8 +16,8 @@ export default function Drawer() {
     return (
         <div>
             <Container style={{ marginTop: '40px' }}>
-                <Box>
-                    <Box sx={{ color: 'white',  margin: '20px auto', width: '100%', 'textAlign': 'left', height: divHeight , overflow:  'hidden' }}>
+                <Box style={{ position: 'relative'}}>
+                    <Box sx={{ color: 'white', zIndex:'11',  margin: '20px auto', width: '100%', 'textAlign': 'left', height: divHeight , overflow:  'hidden', opacity: '0.9' }}>
                         {drawerData['data'].map((dt) => {
                             return (
                                 <a href='/'  key={dt.name} style={{ 'margin': '5px', lineHeight: '40px', 'color': 'white', 'textDecoration': 'none' }}>
@@ -27,8 +27,8 @@ export default function Drawer() {
                             )
                         })}
                     </Box>
-                    <Box sx={{ width: '100%', color: 'white', 'marginTop': '-50px'}}>
-                        <Typography variant='subtitle2' style={{'alignItems': 'center', 'display': 'flex', 'justifyContent': 'end'}} onClick={changeHeight}>
+                    <Box sx={{boxShadow: 3, width: '100%', color: 'hsla(0,0%,100%,.1)', bottom:'3px', position: 'absolute', right: '0px','alignItems': 'center', 'display': 'flex', 'justifyContent': 'end'}}>
+                        <Typography variant='subtitle2' style={{boxShadow: 3,textAlign: 'right', padding: '3px 3px 2px 10px',width: 'auto', zIndex:'11', color:'white', backgroundColor: 'rgba(25, 25, 25, 0.9)', borderRadius:'33%', alignItems: 'center', 'display': 'flex'}} onClick={changeHeight}>
                            {divHeight==='auto'?'Collapse': 'Expand'} {divHeight==='auto'? <KeyboardDoubleArrowUpIcon fontSize="small"/>: <KeyboardDoubleArrowDownIcon fontSize="small"/>}
                         </Typography>
                     </Box>
