@@ -28,7 +28,7 @@ export default function Drawer() {
                         })}
                     </Box>
                     <Box sx={{boxShadow: 3, width: '100%', color: 'hsla(0,0%,100%,.1)', bottom:'3px', position: 'absolute', right: '0px','alignItems': 'center', 'display': 'flex', 'justifyContent': 'end'}}>
-                        <Typography variant='subtitle2' style={{boxShadow: 3,textAlign: 'right', padding: '3px 3px 2px 10px',width: 'auto', zIndex:'11', color:'white', backgroundColor: 'rgba(25, 25, 25, 0.9)', borderRadius:'33%', alignItems: 'center', 'display': 'flex'}} onClick={changeHeight}>
+                        <Typography variant='subtitle2' style={{boxShadow: 3,textAlign: 'right', padding: '3px 3px 2px 10px',width: 'auto', zIndex:'11', color:'white', backgroundColor: 'rgba(25, 25, 25, 0.9)', borderRadius:'33%', alignItems: 'center', 'display': 'flex', cursor: 'pointer'}} onClick={changeHeight}>
                            {divHeight==='auto'?'Collapse': 'Expand'} {divHeight==='auto'? <KeyboardDoubleArrowUpIcon fontSize="small"/>: <KeyboardDoubleArrowDownIcon fontSize="small"/>}
                         </Typography>
                     </Box>
